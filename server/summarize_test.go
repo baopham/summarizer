@@ -3,7 +3,7 @@ package server
 import (
 	"testing"
 
-	pb "github.com/baopham/gominderproto"
+	pb "github.com/baopham/goproto/summarizer"
 	"github.com/stretchr/testify/assert"
 	context "golang.org/x/net/context"
 )

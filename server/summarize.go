@@ -1,7 +1,7 @@
 package server
 
 import (
-	pb "github.com/baopham/gominderproto"
+	pb "github.com/baopham/goproto/summarizer"
 	context "golang.org/x/net/context"
 )
 

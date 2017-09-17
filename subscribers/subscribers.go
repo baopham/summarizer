@@ -1,7 +1,7 @@
 package subscribers
 
 import (
-	pb "github.com/baopham/gominderproto"
+	pb "github.com/baopham/goproto/summarizer"
 	"github.com/lileio/lile/pubsub"
 	context "golang.org/x/net/context"
 	"google.golang.org/grpc"

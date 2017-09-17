@@ -3,7 +3,7 @@
 
 proto:
 	go get github.com/golang/protobuf/protoc-gen-go
-	protoc -I $$GOPATH/src/github.com/baopham/gominderproto summarizer.proto --lile-server_out=. --go_out=plugins=grpc:$$GOPATH/src
+	protoc -I $$GOPATH/src/github.com/baopham/goproto summarizer/summarizer.proto --lile-server_out=. --go_out=plugins=grpc:$$GOPATH/src
 	
 
 test:

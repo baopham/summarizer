@@ -6,7 +6,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	pb "github.com/baopham/gominderproto"
+	pb "github.com/baopham/goproto/summarizer"
 	"github.com/lileio/lile"
 )
 

@@ -1,7 +1,7 @@
 package main
 
 import (
-	pb "github.com/baopham/gominderproto"
+	pb "github.com/baopham/goproto/summarizer"
 	"github.com/baopham/summarizer/server"
 	"github.com/baopham/summarizer/summarizer/cmd"
 	"github.com/lileio/lile"
